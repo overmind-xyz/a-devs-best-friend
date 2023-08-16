@@ -469,6 +469,9 @@ module overmind::digi_pets {
         //          of happiness to decrease. If the amount of happiness to decrease is less than a 
         //          toy's durability, subtract the amount from the durability and push it back to 
         //          the toy list.
+        //
+        // HINT: If the pet has any toys at all, update the PROPERTY_KEY_LAST_TIMESTAMP_PLAYED_WITH 
+        //          with the current timestamp.
 
         // TODO: If the pet's current happiness is greater than the happiness to decrease, update 
         //          the pet's happiness (PROPERTY_KEY_PET_HAPPINESS) with the new health. Otherwise,
