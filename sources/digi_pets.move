@@ -666,7 +666,8 @@ module overmind::digi_pets {
     inline fun check_if_user_has_enough_food(user: address, amount_to_check_food: u64) {
         // TODO: Ensure that the user's balance of food token is greater than or equal to the given 
         //          amount. If false, abort with code: EInsufficientFoodBalance
-        
+
+    }
 
     inline fun check_if_user_owns_pet(user: address, pet: address) {
         // TODO: Ensure the given user is the owner of the given pet token. If not, abort with code: 
