@@ -241,7 +241,7 @@ module overmind::digi_pets {
 
         // TODO: Create fungible token for digi pet food 
         // 
-        // HINT: Use helper function - create_food_fungible_token 
+        // HINT: Use helper function - create_food_token
 
         // TODO: Create the State global resource and move it to the resource account
 
@@ -568,7 +568,7 @@ module overmind::digi_pets {
 
         // TODO: Create a fungible asset for the food token with the following aspects: 
         //          - max supply: no max supply
-        //          - name: FOOD_TOKEN_DESCRFOOD_TOKEN_FUNGIBLE_ASSET_NAMEIPTION
+        //          - name: FOOD_TOKEN_FUNGIBLE_ASSET_NAME
         //          - symbol: FOOD_TOKEN_FUNGIBLE_ASSET_SYMBOL
         //          - decimals: FOOD_TOKEN_DECIMALS
         //          - icon uri: FOOD_TOKEN_ICON_URI
